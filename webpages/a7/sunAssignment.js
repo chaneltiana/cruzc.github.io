@@ -15,7 +15,9 @@ var bright;
 
 function setup() {
     
-    createCanvas(800, 600);
+    myCanvas = createCanvas(800,600);
+    myCanvas.position(300, 150);
+    
     colorMode(HSB, 360, 100, 100);
 
      //starting point

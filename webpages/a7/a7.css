@@ -2,14 +2,14 @@ h1{
 
     font-family: cursive;
     color: black;
-    padding-left: 500px;
+    padding-left: 550px;
 
     
 }
 
 h2{
     
-    padding-left: 525px;
+    padding-left: 575px;
     float: center;
 }
 
@@ -48,15 +48,5 @@ li a{
 body{
     
     background: white;
-    
-}
-
-#test{
-    
-    z-index: -1;
-    position: relative;
-    padding-bottom: 100px;
-    padding-left: 300px;
-    display: center;
     
 }

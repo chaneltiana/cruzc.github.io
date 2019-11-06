@@ -13,7 +13,9 @@ var lineSize;
 
 function setup(){
    
-    createCanvas(500,500);
+    myCanvas = createCanvas(500,500);
+    myCanvas.position(400, 150);
+    
     colorMode(HSB, 360, 100, 100);
     
     angle1 = 0;

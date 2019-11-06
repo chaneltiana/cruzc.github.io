@@ -18,7 +18,9 @@ function preload(){
 
 function setup(){
     
-    createCanvas (750,550);
+    myCanvas = createCanvas(750,550);
+    myCanvas.position(400, 150);
+    
     colorMode(HSB, 360, 100, 100);
     noStroke();
     

@@ -32,8 +32,8 @@ var score = 0;
 
 
 function setup(){ 
-    createCanvas(800,800);  
-}
+    myCanvas = createCanvas(800, 800);
+    myCanvas.position(300, 150);}
 
 function draw(){
     background(0);

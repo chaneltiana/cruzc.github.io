@@ -25,7 +25,9 @@ function preload() {
 }
 function setup(){
     
-    createCanvas(800,600);
+    myCanvas = createCanvas(800,600);
+    myCanvas.position(300, 150);    
+    
     background(0, 0, 51);
     
     bear1 = new bear(0, 0, 3, 6);
