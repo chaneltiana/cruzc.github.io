@@ -1,0 +1,53 @@
+h1{
+
+    font-family: cursive;
+    color: black;
+    padding-left: 500px;
+
+    
+}
+
+h2{
+    
+    padding-left: 475px;
+    float: center;
+}
+
+
+nav{
+    
+    z-index: 1;
+    position: relative;
+    bottom: 100px;
+    top: -100px;
+    left: 10px;
+    padding: 0px;
+    
+}
+
+ul{
+    
+    list-style-type: none;
+    margin: 0;
+    width: 175px;
+    background-color: rgb(232,232,232);
+    display: center;
+}
+
+li a{
+    
+    display: block;
+    width: 90px;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    font-size: 20px;
+    font: monospace;
+    
+}
+
+body{
+    
+    background: white;
+    
+}
