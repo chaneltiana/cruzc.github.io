@@ -19,13 +19,15 @@ var speed1;
 
 
 function preload() {
-    img1 = loadImage ("data/curve.png");
-    img2 = loadImage ("data/rect.png");
+    img1 = loadImage ("data/green.jpg");
+    img2 = loadImage ("data/blue.jpg");
 }
 
 function setup() {
     
-    createCanvas(600,600);
+    myCanvas = createCanvas(600, 600);
+    myCanvas.position(390, 150);
+    
     background(255);
     
     //loading image data
@@ -43,6 +45,9 @@ function setup() {
 }
 
 function draw () {
+    
+    push();
+    translate(30, 50);
     
     angle1 += speed1;
     push();

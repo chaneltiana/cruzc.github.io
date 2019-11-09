@@ -9,7 +9,7 @@ var directionY;
 function setup(){
     
     myCanvas = createCanvas(500,500);
-    myCanvas.position(400, 600);
+    myCanvas.position(400, 150);
     
     startX = width/2;
     startY = width/2;

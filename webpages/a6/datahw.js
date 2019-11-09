@@ -19,7 +19,7 @@ function preload(){
 function setup(){
     
     myCanvas = createCanvas(750,550);
-    myCanvas.position(400, 150);
+    myCanvas.position(350, 150);
     
     colorMode(HSB, 360, 100, 100);
     noStroke();
@@ -44,8 +44,6 @@ function draw(){
     
     var mx = map(mouseX, 0, width, 290, 90);
     
-    
-   
     
     for(var i = 0; i < colorTable.getRowCount(); i++){
               

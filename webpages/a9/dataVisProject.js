@@ -8,9 +8,7 @@ function preload(){
 
 function setup(){
     
-    myCanvas = createCanvas(1000, 700);
-    myCanvas.position(800, 150);
-
+    createCanvas(1000, 700);
     
     var value = [];
     
