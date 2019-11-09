@@ -1,6 +1,6 @@
 h1{
 
-    font-family: cursive;
+    font-family: monospace;
     color: black;
     padding-left: 550px;
     padding-top: 30px;
@@ -17,11 +17,11 @@ h2{
 #column1{
     
     width: 650px;
-    height: 40%;
+    height: 40px;
     position: relative; 
     padding: 0px;
-    margin-right: 300px;
-    margin-left: 370px;
+    margin-right: 100px;
+    margin-left: 170px;
     float: center;
     display: center;
     font-size: 20px;
