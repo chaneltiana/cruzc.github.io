@@ -1,7 +1,6 @@
 function setup(){
     
     myCanvas = createCanvas(400,400);
-//    myCanvas.position(440, 200);
     
     background(255, 240, 230);
 }
