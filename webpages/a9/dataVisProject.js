@@ -8,10 +8,10 @@ function preload(){
 
 function setup(){
     
-    myCanvas = createCanvas(1000, 700);
-    myCanvas.position = (300, 200);
+    myCanvas = createCanvas(1000,700);
+    myCanvas.position(250, 125);
     
-    var value = [];
+    var value = []
     
     for(var i = 0; i < table.getRowCount(); i++){
         
