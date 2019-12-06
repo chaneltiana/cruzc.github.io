@@ -12,6 +12,19 @@ h2{
     
     padding-left: 635px;
     float: center;
+    color: darkslategray;
+}
+
+h4{
+    
+  p {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+ 
+    color: darkslategray;
 }
 
 #column1{
@@ -64,7 +77,7 @@ li a{
 
 body{
     
-    background: white;
+    background: AliceBlue;
     
 }
 
